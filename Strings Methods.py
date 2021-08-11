@@ -12,8 +12,25 @@ print(indexstring[3]+indexstring[1]+indexstring[2])
 # X is the beginning of the slice, and Y is the end;
 # the symbol with the number Y is not included in the slice. By default,
 # the first index is 0, and the second is the length of the string.
-##
+
+
+## the definition consists of a string of numbers
+##  isDigit()
 stringdigit="66666"
 print(stringdigit.isdigit())
-notquitestring="668885kkdeeuueur"
-print(notquitestring.isdigit())
+notquitedigitstring="668885kkdeeuueur"
+print(notquitedigitstring.isdigit())
+
+
+## the definition consists of a string of letters
+## isAlfa
+alfaStrings="spdlgkokfhikiohirtihrtkgtrt"
+notquitealfastring="gkofgrty5y56i65iu8"
+print(alfaStrings.isalpha())
+print(notquitealfastring.isalpha())
+print(notquitealfastring.isalnum())
+
+## working with registers
+lowerstring="jjjjkkooookohhigfhiio"
+uperstring="RKRKOTHOTHITYHIJ5YIHI05Y0I5I0"
+print(lowerstring.swapcase()+" "+uperstring.swapcase())
