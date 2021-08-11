@@ -33,4 +33,11 @@ print(notquitealfastring.isalnum())
 ## working with registers
 lowerstring="jjjjkkooookohhigfhiio"
 uperstring="RKRKOTHOTHITYHIJ5YIHI05Y0I5I0"
-print(lowerstring.swapcase()+" "+uperstring.swapcase())
+print("Перевод нижнего регистра в верхний регистр:"+" "+lowerstring.swapcase()+" "+"\n"+
+      "Перевод верхнего регистра в нижний регистр:"+" "+uperstring.swapcase())
+
+## converting the first character in the string to uppercase,
+# and the rest remain in lowercase
+# title()
+allloweralphas="dogs and cats are friends"
+print(allloweralphas.title())
