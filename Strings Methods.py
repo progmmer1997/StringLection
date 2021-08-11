@@ -5,5 +5,5 @@ stringtwwo= len(stringone)
 print(stringtwwo)
 
 ## Index Access
-indexstring="Humsrter"
-print(indexstring[2])
+indexstring="Hamsrter"
+print(indexstring[3]+indexstring[1]+indexstring[2])
