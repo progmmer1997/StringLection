@@ -2,3 +2,4 @@
 s="Hello"
 ## multiplying a string by a number and printing result
 print(3*s)
+## Cretion two strings,adding them and printing this
