@@ -1,0 +1,2 @@
+## Create String
+s="Hello"
